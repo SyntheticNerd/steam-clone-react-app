@@ -66,6 +66,7 @@ export const ArrowBtnCont = styled.button`
   width: 50px;
   background: var(--bg-btn-grad);
   border: none;
+  z-index: 1;
   &:hover{
     background: var(--bg-btn-grad-hover);
   }
