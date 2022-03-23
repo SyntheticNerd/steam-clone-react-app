@@ -1,5 +1,6 @@
 {
   "name": "react-steam-store-hp-clone",
+  "homepage": "https://github.com/SyntheticDesigner/steam-clone-react-app",
   "version": "0.1.0",
   "description": "A sample Node.js app using Express 4",
   "engines": {
@@ -12,14 +13,16 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
-    "ejs": "^3.1.5",
-    "express": "^4.15.2",
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
+    "ejs": "^3.1.5",
+    "express": "^4.15.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.0",
@@ -27,6 +30,7 @@
     "web-vitals": "^2.1.4"
   },
   "devDependencies": {
+    "gh-pages": "^3.2.3",
     "got": "^11.3.0",
     "tape": "^4.7.0"
   },
