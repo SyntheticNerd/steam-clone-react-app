@@ -27,6 +27,7 @@ export const Link = styled.li`
   opacity: 1;
   cursor: pointer;
   & > p {
+    font-size: 14px;
     &:hover {
       color: white;
       opacity: 1;

@@ -128,7 +128,7 @@ const games = [
       },
     ],
     mainImg: "/images/back_4_blood_main.png",
-    mainAlt: "/images/back_4_blood_main.png",
+    mainAlt: "/images/elden_ring_main.png",
     screenShots: [
       "/images/elden_ring_1.png",
       "/images/elden_ring_2.png",

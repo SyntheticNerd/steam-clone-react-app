@@ -16,7 +16,8 @@ Run the react test server with `npm start`.
 - [x] Add hover effects to features recommended.(thank useRef). (3/23/2022)
 - [x] Add dynamic content generation with a context api mock database and react hooks.(3/22/2022)
 - [x] Add timer functionality to special offers.(3/23/2022)
-- [ ] Add game details hover features to all component.
+- [x] Add game details hover features to all component.
+- [ ] Add auto slide show on game detail panel.
 - [ ] Add mobile support components.
 - [ ] Create second half of home page.
 
