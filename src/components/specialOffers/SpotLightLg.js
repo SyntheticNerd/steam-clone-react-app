@@ -1,4 +1,5 @@
-import React from "react";
+import React, {useState} from "react";
+import HoverPanel from "../hoverInfo/HoverPanel";
 import {
   Disc,
   InfoLg,
@@ -30,8 +31,10 @@ function padMin(int) {
 }
 
 export default function SpotLightLg({ game }) {
+  const [hover, setHover] = useState("none");
   return (
-    <SpotLightLgCont>
+    <SpotLightLgCont onMouseOver={()=>setHover("inline-block")} onMouseLeave={()=>setHover("none")}>
+      <HoverPanel hover={hover}/>
       {game.specOff && (
         <LiveIcon
           src={process.env.PUBLIC_URL + "/images/live_icon.svg"}

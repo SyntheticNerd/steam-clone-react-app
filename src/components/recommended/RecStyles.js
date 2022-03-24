@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const RecCont = styled.div``;
 export const ImgLg = styled.img``;
 export const RecBox = styled.div`
+  position: relative;
   width: 940px;
   height: 350px;
   /* background-color: var(--bg-dark); */
@@ -79,7 +80,7 @@ export const UserInfoSB = styled.div`
     height: 40px;
   }
   & > div {
-      margin-left: 8px;
+    margin-left: 8px;
     & > h2 {
       color: var(--font-color-blue2);
       font-weight: 600;

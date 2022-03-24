@@ -10,14 +10,18 @@ import {
   Tag,
   TagList,
 } from "./FeatStyles";
-import { useRef } from "react";
+import { useRef, useState } from "react";
+import HoverPanel from "../hoverInfo/HoverPanel";
 
 export default function GameCluster({ game }) {
   const hovered = useRef(null);
   const mainImg = useRef(null);
 
+  const [hover, setHover] = useState("none");
+
   return (
-    <ClusterCont>
+    <ClusterCont onMouseOver={()=>setHover("inline-block")} onMouseLeave={()=>setHover("none")}>
+      <HoverPanel hover={hover}/>
       <ImgLg ref={mainImg} src={process.env.PUBLIC_URL + game.mainImg} alt={game.name} />
       <InfoSection>
         <GameTitle>{game.name.toUpperCase()}</GameTitle>

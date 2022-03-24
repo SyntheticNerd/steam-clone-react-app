@@ -3,6 +3,7 @@ export const FeatCont = styled.div`
   margin-top: 24px;
 `;
 export const ClusterCont = styled.div`
+  position: relative;
   width: 940px;
   height: 353px;
   /* background-color: var(--bg-dark); */
@@ -72,7 +73,7 @@ export const PriceSml = styled.strong`
   margin: auto 0px 16px 16px;
   color: var(--font-color-blue);
   font-size: 12px;
-  & > img{
+  & > img {
     opacity: 0.7;
     float: right;
   }

@@ -58,7 +58,7 @@ const games = [
       },
     ],
     mainImg: "/images/steam_deck_main.png",
-    mainAlt: "/images/back_4_blood_main.png",
+    mainAlt: "/images/elden_ring_main.png",
     screenShots: [
       "/images/steam_deck_1.png",
       "/images/steam_deck_2.png",
@@ -93,7 +93,7 @@ const games = [
       },
     ],
     mainImg: "/images/fallen_order_main.png",
-    mainAlt: "/images/back_4_blood_main.png",
+    mainAlt: "/images/fallen_order_main.png",
     screenShots: [
       "/images/fallen_order_1.png",
       "/images/fallen_order_2.png",
@@ -127,7 +127,7 @@ const games = [
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim eu tristique fusce proin odio nullam. Nibh fermentum blandit nunc sem id sit sagittis. Vitae...",
       },
     ],
-    mainImg: "/images/elden_ring_main.png",
+    mainImg: "/images/back_4_blood_main.png",
     mainAlt: "/images/back_4_blood_main.png",
     screenShots: [
       "/images/elden_ring_1.png",

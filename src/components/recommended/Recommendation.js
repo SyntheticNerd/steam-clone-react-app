@@ -1,10 +1,13 @@
-import React from "react";
+import React, {useState} from "react";
+import HoverPanel from "../hoverInfo/HoverPanel";
 import { Disc, ImgCont, ImgLg, Price, RecBox, RevBox } from "./RecStyles";
 import UserInfo from "./UserInfo";
 
 export default function Recommendation({ game }) {
+  const [hover, setHover] = useState("none");
   return (
-    <RecBox>
+    <RecBox onMouseOver={()=>setHover("inline-block")} onMouseLeave={()=>setHover("none")}>
+      <HoverPanel hover={hover}/>
       <ImgCont>
         <ImgLg src={process.env.PUBLIC_URL + game.mainAlt} alt={game.mainAlt} />
         <div>

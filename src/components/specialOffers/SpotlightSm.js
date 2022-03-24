@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import HoverPanel from "../hoverInfo/HoverPanel";
 import {
   Disc,
   InfoSm,
@@ -39,8 +40,13 @@ export default function SpotlightSm({ game }) {
     }, 1000);
     return () => clearTimeout(timer);
   });
+  const [hover, setHover] = useState("none");
   return (
-    <SpotLightSmCont>
+    <SpotLightSmCont
+      onMouseOver={() => setHover("inline-block")}
+      onMouseLeave={() => setHover("none")}
+    >
+      <HoverPanel hover={hover} />
       {game.specOff && (
         <LiveIcon
           src={process.env.PUBLIC_URL + "/images/live_icon.svg"}
@@ -72,7 +78,9 @@ export default function SpotlightSm({ game }) {
           )}
           <Price>
             <p>${game.price}</p>
-            <strong>${(game.price * (game.disc/100)).toFixed(2) -.01}</strong>
+            <strong>
+              ${(game.price * (game.disc / 100)).toFixed(2) - 0.01}
+            </strong>
           </Price>
         </section>
       </InfoSm>
