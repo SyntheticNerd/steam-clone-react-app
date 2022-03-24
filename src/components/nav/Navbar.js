@@ -47,6 +47,14 @@ export default function Navbar() {
           </Link>
           <Link>
             <p>SUPPORT</p>
+            <ul>
+              <li><span>HOME</span></li>
+              <li><span>DISCOVERY QUEUE</span></li>
+              <li><span>WISHLIST</span></li>
+              <li><span>POINTS SHOP</span></li>
+              <li><span>NEWS</span></li>
+              <li><span>STATS</span></li>
+            </ul>
           </Link>
         </NavLinks>
         <NavUtil>

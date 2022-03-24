@@ -5,7 +5,7 @@ import Recommendation from "./Recommendation";
 import { RecCont } from "./RecStyles";
 import { SteamContext } from "../../utils/context";
 
-export default function Recomended() {
+export default function Recommended() {
   const { games } = useContext(SteamContext);
   const [page, setPage] = useState(0);
   return (

@@ -46,7 +46,7 @@ export default function SpotlightSm({ game }) {
       onMouseOver={() => setHover("inline-block")}
       onMouseLeave={() => setHover("none")}
     >
-      <HoverPanel hover={hover} />
+      <HoverPanel hover={hover}/>
       {game.specOff && (
         <LiveIcon
           src={process.env.PUBLIC_URL + "/images/live_icon.svg"}

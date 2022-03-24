@@ -21,7 +21,7 @@ export default function GameCluster({ game }) {
 
   return (
     <ClusterCont onMouseOver={()=>setHover("inline-block")} onMouseLeave={()=>setHover("none")}>
-      <HoverPanel hover={hover}/>
+      <HoverPanel hover={hover} game={game}/>
       <ImgLg ref={mainImg} src={process.env.PUBLIC_URL + game.mainImg} alt={game.name} />
       <InfoSection>
         <GameTitle>{game.name.toUpperCase()}</GameTitle>
