@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/steam-clone-react-app/static/css/main.9f088a99.css",
-    "main.js": "/steam-clone-react-app/static/js/main.99524fe9.js",
+    "main.js": "/steam-clone-react-app/static/js/main.426a6de3.js",
     "static/js/787.d71e8ea9.chunk.js": "/steam-clone-react-app/static/js/787.d71e8ea9.chunk.js",
     "index.html": "/steam-clone-react-app/index.html",
     "main.9f088a99.css.map": "/steam-clone-react-app/static/css/main.9f088a99.css.map",
-    "main.99524fe9.js.map": "/steam-clone-react-app/static/js/main.99524fe9.js.map",
+    "main.426a6de3.js.map": "/steam-clone-react-app/static/js/main.426a6de3.js.map",
     "787.d71e8ea9.chunk.js.map": "/steam-clone-react-app/static/js/787.d71e8ea9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9f088a99.css",
-    "static/js/main.99524fe9.js"
+    "static/js/main.426a6de3.js"
   ]
 }

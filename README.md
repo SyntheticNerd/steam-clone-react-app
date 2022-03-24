@@ -1,39 +1,23 @@
-# node-js-getting-started
+To use this application on your local machine first make sure you have node.js installed then install all dependencies with `npm install`.
 
-A barebones Node.js app using [Express 4](http://expressjs.com/).
+Run the react test server with `npm start`.
 
-This application supports the [Getting Started on Heroku with Node.js](https://devcenter.heroku.com/articles/getting-started-with-nodejs) article - check it out.
+# Steam Home Page React Clone
+This page was meant as an exercise to create a popular website home page using react. This exercise was to see how far I could get in a week roughly 5 days.
+## Goal
+- [x] Create wireframe mock up in figma.(3/17/2022)
+- [x] Create a static clone of the steam store website (First half with special event banner).(3/21/2022)
+- [x] Use react components.(3/21/2022)
+### Stretch Goals
+- [x] Add hover effects to buttons/links. (3/22/2022)
+- [x] Add hover effects to nav bar. (3/22/2022)
+- [x] Add hover effects to features recommended.(thank useRef). (3/23/2022)
+- [x] Add dynamic content generation with a context api mock database and react hooks.(3/22/2022)
+- [x] Add timer functionality to special offers.(3/23/2022)
+- [ ] Add hover features to Special Offers.
+- [ ] Add hover video player to Community recommendation.
+- [ ] Add hover slide show to Games today.
+- [ ] Add mobile support components.
+- [ ] Create second half of home page.
 
-## Running Locally
-
-Make sure you have [Node.js](http://nodejs.org/) and the [Heroku CLI](https://cli.heroku.com/) installed.
-
-```sh
-$ git clone https://github.com/heroku/node-js-getting-started.git # or clone your own fork
-$ cd node-js-getting-started
-$ npm install
-$ npm start
-```
-
-Your app should now be running on [localhost:5000](http://localhost:5000/).
-
-## Deploying to Heroku
-
-```
-$ heroku create
-$ git push heroku main
-$ heroku open
-```
-or
-
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
-
-## Documentation
-
-For more information about using Node.js on Heroku, see these Dev Center articles:
-
-- [Getting Started on Heroku with Node.js](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
-- [Heroku Node.js Support](https://devcenter.heroku.com/articles/nodejs-support)
-- [Node.js on Heroku](https://devcenter.heroku.com/categories/nodejs)
-- [Best Practices for Node.js Development](https://devcenter.heroku.com/articles/node-best-practices)
-- [Using WebSockets on Heroku with Node.js](https://devcenter.heroku.com/articles/node-websockets)
+Images were pulled from the steam website and will not be used for monetary gain. 
