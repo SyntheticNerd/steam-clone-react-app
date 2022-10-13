@@ -11,11 +11,18 @@ Run the react test server with `npm start`.
 
 - [Steam Home Page React Clone](#steam-home-page-react-clone)
   - [Table of contents](#table-of-contents)
+  - [Author](#author)
 - [Overview](#overview)
   - [Goal](#goal)
     - [Stretch Goals](#stretch-goals)
   - [My Process](#my-process)
     - [Design Artifact](#design-artifact)
+
+## Author
+
+- Andrew Schroepfer - Developer
+  - [Website](https://syntheticnerd.github.io/)
+  - [Linkedin](https://www.linkedin.com/in/andrew-schroepfer/)
 
 # Overview
 
