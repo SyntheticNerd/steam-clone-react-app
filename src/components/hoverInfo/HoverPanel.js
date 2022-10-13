@@ -5,15 +5,15 @@ export default function HoverPanel({ hover, game }) {
   const [slideNum, setSlideNum] = useState(0);
   const [screenShot, setScreenShot] = useState(`/images/elden_ring_1.png`);
   const imgSlide = useRef(null);
-  // useEffect(() => {
-  //   const timer = setTimeout(() => {
-  //     setSlideNum((slideNum + 1)%4);
-  //     console.log(screenShot);
-  //     game && setScreenShot(game.screenShots[slideNum]);
-  //     game && imgSlide.current.src; //process.env.PUBLIC_URL + game.screenShots[slideNum]; 
-  //   }, 2500);
-  //   return () => clearTimeout(timer);
-  // }, [screenShot]);
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setSlideNum((slideNum + 1)%4);
+      console.log(screenShot);
+      game && setScreenShot(game.screenShots[slideNum]);
+      game && imgSlide.current.src; //process.env.PUBLIC_URL + game.screenShots[slideNum]; 
+    }, 2500);
+    return () => clearTimeout(timer);
+  }, [screenShot]);
   
   return (
     <PanelBox hover={hover}>
